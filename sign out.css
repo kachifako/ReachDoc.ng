@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    background: hsl(0, 2%, 54%);
+    
+}
+
+
+.container{
+    margin: 17% 30% 30% 23%;
+    height: 679px;
+    width: 827px;
+    border-radius: 5%;
+    background: #F5FFFF;
+
+}
+
+
+img{
+    padding-top: 10%;
+    padding-left: 45%;
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+
+p{
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+button{
+    height: 80.35113525390625px;
+    width: 245.0213623046875px;
+    border-radius: 5%;
+    border-color: #006967;
+    color:#006967 ;
+    font-style: poppins;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+
+button:hover{
+    height: 82px;
+    width: 247px;
+    background-color:#15807e ;
+    color: ivory;
+    font-size: 20px;
+}
+
+
+.yes-btn{
+    background-color: #006967;
+    color: ivory;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    
+    .container{
+        margin: 17% 20% 30% 5%;
+        height: auto;
+        width: 90%;
+        border-radius: 5%;
+        background: #F5FFFF;
+    
+    }
+    
+    
+    img{
+        padding-top: 10%;
+        padding-left: 43%;
+        height: 60px;
+        width: 60px;
+    }
+
+
+    
+    h1{
+       
+        font-size: 30px;
+        font-weight: 600;
+        
+    
+    }
+    
+    
+    p{
+        font-family: Poppins;
+        font-size: 90%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90%;
+        text-align: center;
+    
+    }
+    
+    
+    .buttons{
+        padding-top: 15%;
+        padding-bottom: 12%;
+    }
+    
+    
+    button{
+        height: 35px;
+        width: 35%;
+        border-radius: 5%;
+        border-color: #006967;
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+    
+    
+    button:hover{
+        height: 37px;
+        width: 35.5%;
+        font-size: 19px;
+    }
+    
+    
+}

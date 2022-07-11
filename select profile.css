@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body{
+    background-color: #E5E5E5;
+}
+
+
+.container{
+    height: 1024px;
+    width: 1440px;
+    left: 545px;
+    top: 1601px;
+    border-radius: 0px;
+    background-color: #F5FFFF;
+    margin: auto;
+}
+
+.logo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+
+}
+
+.back-arrow{
+    width: fit-content;
+    margin-left: 10%;
+    margin-top: 0%;
+    border: darkgreen;
+    border-style: solid;
+    border-width: 1.7px;
+    border-radius: 5%;
+}
+
+.back-arrow:hover{
+    filter: brightness(0) invert(0.8) ;
+    width: 80px;
+}
+
+.arrow{
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+p{
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #515050;
+}
+
+.select-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 60px;
+}
+
+.patient{
+    background-image: url(../images/health-life-fitness-background-vector-7621889\ 1.svg);   
+    border-width: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(138, 135, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 424px;
+    width: 251px;
+    border-radius: 5px;
+    
+}
+
+.patient:hover{
+     border: 5px solid #006967;
+}
+
+
+.coach{
+    background-image: url(../images/health-life-fitness-background-vector-7621889\ 1.svg);   
+    border-width: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(138, 135, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 424px;
+    width: 251px;
+    border-radius: 5px;
+    
+}
+
+.coach:hover{
+    border: 5px solid #006967;
+}
+
+.silhoutte-head{
+   position:static;
+    height: 55px;
+    width: 52px;
+   margin-left:40%;
+    margin-top: 25%;
+}
+
+.silhoutte-body{
+    height: 51px;
+    width:97px;
+    margin-left: 30%;
+    margin-bottom: 5%;
+
+}
+
+h2{
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.proceed-btn{
+    height: 48px;
+    width: 418px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 521px;
+    margin-top: 80px;
+    background-color: #006967;
+    color: #F5FFFF;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    
+
+}
+
+.proceed-btn:hover{
+    color: rgb(189, 186, 186);
+    width: 450px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+
+    .container{
+        height: auto;
+        width: 100%;
+        background-color: #F5FFFF;
+        margin: auto;
+    }
+    
+    .logo{
+        padding-top: 7%;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+       
+    }
+    
+    .slogan{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .back-arrow{
+        width: 10%;
+        height: 5%;
+        margin-left: 8%;
+        margin-top: 0%;
+        border-width: 1px;
+    }
+    
+    .back-arrow:hover{
+        filter: brightness(0) invert(0.8) ;
+        width: 11%;
+    }
+    
+    .arrow{
+        
+        margin-top: 11%;
+        margin-right: 6%;
+        margin-left: 18%;
+        padding: 11%;
+        margin-bottom: 10%;
+        max-width: 90%;
+        height: 40%;
+    }
+    
+    h1{
+       
+        font-size: 90%;
+        
+    }
+    
+
+    p{
+        font-size: 90%;
+        
+    }
+    
+    .select-profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+        padding-right:10% ;
+        padding-top: 8%;
+    }
+    
+    .patient{
+          
+        border-width: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 20%;
+        width: 70%;
+        
+    }
+    
+    .patient:hover{
+         border: 3px solid #006967;
+    }
+    
+    
+    .coach{
+        border-width: 3px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 20%;
+        width: 70%;
+        margin-top: 3%;
+    }
+    
+    .coach:hover{
+        border: 3px solid #006967;
+    }
+    
+    .silhoutte-head{
+       position:static;
+        height: 20%;
+        width: 20%;
+      
+    
+    }
+    
+    .silhoutte-body{
+        height: 20%;
+        width:40%;
+        
+    
+    }
+    
+    h2{
+        font-size: 90%;
+        
+    }
+    
+    .proceed-btn{
+        height: 30px;
+        width: 60%;
+        padding-bottom: 10%;
+        margin-left: 20%;
+        margin-top: 10%;
+        margin-bottom: 8%;
+        font-size: 80%;
+        font-weight: 600;
+        
+        
+    
+    }
+    
+    .proceed-btn:hover{
+        width: 65%;
+        height: 34px;
+    }
+    
+
+
+
+
+
+
+}

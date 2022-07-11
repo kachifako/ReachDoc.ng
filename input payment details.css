@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    background-color: #cecaca;
+}
+
+.container{
+    height: 982px;
+    width: 1512px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-items: flex-end;
+    background-color: #E5E5E5;
+}
+
+
+.logo{
+    margin: 5%;
+}
+
+.payD{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+.payS{
+    margin-top: 28%;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+
+.payment-details{
+    
+    background-color: #E5E5E5;
+}
+
+
+.payment-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.option{
+    display: block;
+    border: none;
+    background-color: #E5E5E5;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 226px;
+}
+
+
+
+.option:hover{
+    background-color: #006967;
+    border-radius: 5%;
+}
+
+
+h2{
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    margin-left: 5%;
+    padding-top: 3%;
+
+
+}
+
+
+.card-details{
+    height: 77px; width: 559px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 5%;
+
+}
+
+
+.expiry-cvv{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 3%;
+}
+
+
+.expiry-date{
+    height: 77px;
+    width: 387px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 5%;
+}
+
+.cvv{
+    border-width: 1px;
+    height: 77px;
+    width: 263px;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+
+.payment-summary{
+    display: block;
+    background-color: #006967;
+    height: 982px;
+    width: 608px;
+    padding-right: 0%;
+    
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+
+.cart-item{
+
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+   
+    margin-left: 7%;
+    margin-right: 8%
+}
+
+
+p{
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+
+
+.pay-now-btn{
+    height: 48px;
+    width: 350px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    margin-top: 25%;
+    margin-left: 15%;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    color: #006967;
+
+}
+
+
+.pay-now-btn:hover{
+    height: 50px;
+    width: 352px;
+    color: grey;
+    font-weight: 600;
+}          

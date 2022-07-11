@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="./input payment details.css">
+</head>
+<body>
+        <!--container begins-->
+    <div class="container">
+
+        <!--payment details section begins-->
+        <section class="payment-details">
+        
+                    <div >
+                        <img class="logo" width="160" height="30"  src="./images/REACHDOC logo1.png" alt="ReachDoc">
+                    </div>
+
+                
+<!--payment options (bank card, online transfer, etc)-->
+
+                <h1 class="payD">Payment Details</h1>
+            <div class="payment-options">
+                <button class="option">
+                    <img src="./images/debit-credit-card.png" alt="card icon">
+                    <h2>Debit/Credit Card </h2>
+                </button>
+
+                <button class="option" >
+                    <img src="./images/paypal.png" alt="card icon">
+                    <h2>Paypal </h2>
+                </button>
+
+                <button class="option" >
+                    <img src="./images/bank-transfer.png" alt="card icon">
+                    <h2>Bank transfer</h2>
+                </button>
+
+                <button class="option" >
+                    <img src="./images/wallet.png" alt="card icon">
+                    <h2>eWallet</h2>
+
+                </button>
+            </div><!--payment options ends(bank card, online transfer, etc)-->
+
+
+            <!--card details input boxes-->
+                <div>
+                    <h2> Credit Card Number</h2>
+                    <input  class="card-details" type="" >
+                </div>
+
+                <div>
+                    <h2> Card Holder Name</h2>
+                    <input class="card-details" type="text"  >
+                </div>
+
+                <div class="expiry-cvv">
+                    <div> 
+                        <h2> Expiry Date</h2>
+                        <input class="expiry-date" type="date" >
+                    </div>
+
+                    <div>
+                        <h2> CVV</h2>
+                        <input  class="cvv" type="" >
+                    </div>  
+                </div> <!--card details input boxes ends here-->
+
+        </section><!--payment details section ends here-->
+
+        <!--payment summary section begins-->
+        <section class="payment-summary">
+            <h1 class="payS">Payment Summary</h1>
+
+                <div class="purchased">
+
+                        <div class="cart-item"> <p> Fitness program plan</p> <p> #20,000</p></div>
+                        <div class="cart-item"><p>Nutritionist consultancy fee</p>
+                            <p> #10,000</p> </div>
+                        <div class="cart-item" >   <p  style="font-weight: 700;"> Total</p>
+                        <p  style="font-weight: 700;"> #30,000 </p> </div>
+                </div>
+
+            <button class="pay-now-btn">Pay Now</button>
+
+
+        </section> <!--payment summary ends-->
+
+    </div> <!--container ends-->
+</body>
+</html>

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+  body{  
+    background-color: #e5e5e5;
+}
+
+
+.container{
+    background-color: #e9ffff;
+    width: 100%;
+    height: 1100px;
+}
+
+
+img{
+    width: 160px;
+    height: 35px;
+    margin-top: 0.5%;
+}
+
+
+header{
+    height: 71px;
+    width: 1383px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 4% 1% 4%;
+}
+
+
+.nav-links{
+    justify-content: space-evenly; 
+    margin-top: 1%;
+}
+
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+}
+
+
+.ul-li{
+    width: 150px; 
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    color: #918d8d;
+    text-align: center;
+
+}
+
+
+.ul-li:hover{
+    color: #024e4d;
+   
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+
+.sign-in{
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5678F5;
+    margin-top: 1%;
+
+}
+
+.sign-in:hover{
+    color: #006967;
+    font-size: 21px;
+    font-weight: 700;
+
+}
+
+
+h1{
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    padding-top: 8%;
+    padding-left: 5%;
+
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.write-up{
+    height: 406px;
+    width: 640px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: justified;
+    padding-left: 5%;
+    
+}
+
+
+.img-2{
+    height: 608px;
+    width: 608px;
+    margin: auto;
+}
+
+
+
+
+
+
+            /* contact form starts here*/
+
+
+
+
+
+
+            /* contact form ends here*/
+
+
+
+
+
+
+                    /* payment details starts here*/
+
+
+            
+
+
+                    /* payment details ends here*/
